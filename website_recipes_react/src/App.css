@@ -1,0 +1,126 @@
+.recipButton{
+  width: 250px;
+  height: 200px;
+  margin-top: 10px;
+}
+#nav{
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  top: 0;
+  width: 100%;
+}
+#nav #ul{
+  display: inline-flex; 
+  text-align: center;
+  list-style: none;
+}
+#nav #ul #li a{
+  list-style: none; 
+  margin: 40px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-size: 23px;
+  padding: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav #ul #li a:hover{
+  color: palevioletred;
+}
+#li {
+  text-align: center;
+}
+.img{
+  width: 100%;
+  height: 90%;
+}
+.data{  
+  position:absolute;
+  display: none;
+  width: 40%;
+  height: auto;
+  /* margin-left: 20%;
+  margin-top: 100px; */
+  top:100px;
+  left:30%;
+  text-align: center;
+  font-weight: bold;
+  background-color: #e37db8b7;
+}
+#x{
+  text-align: center;
+}
+.form{
+  width: 80%;
+  height: 25px;
+  margin-left: 10%;
+}
+#butt1,#send{
+  width: 20%;
+  margin-left: 40%;
+}
+form,#join{
+  width: 50%;
+  height: 500px;
+  margin-left: 25%;
+  margin-top: 80px;
+  background-color: #e37db8b7;
+}
+#Enrollment{
+  width: 716px;
+  height: 500px;
+  text-align: center;
+  position: fixed;
+  font-weight: bold; 
+  background-color: #e37db8b7;
+  margin-left: 411px;
+  margin-top:40px;
+  padding-top: 40px;
+}
+body{
+  height: 150vh;
+  width: 100%;
+  background-position: center;
+background-size: cover;
+background-image: url(/public/alexander-grey-5djh4Yb-2zI-unsplash.jpg);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
